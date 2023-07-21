@@ -1,6 +1,6 @@
 ﻿namespace carvedrock.bl.principles.Solid.DependencyInversion
 {
-    public class SqlServerDatabase
+    public class SqlServerDatabase : IDataBase
     {
         // Some fields
 

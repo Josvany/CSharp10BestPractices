@@ -2,9 +2,12 @@
 {
     public class SalesReport
     {
-        private SqlServerDatabase _database;
+        /// <summary>
+        /// con el fin de tener multiples bases de datos de donde pueda venir dicha informacion
+        /// </summary>
+        private IDataBase _database;
 
-        public SalesReport(SqlServerDatabase database)
+        public SalesReport(IDataBase database)
         {
             _database = database;
         }
