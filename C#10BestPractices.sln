@@ -11,6 +11,10 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "CodingConventionAndGuidelin
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "carvedrock.bl", "CodingConventionAndGuidelines\carvedrock.bl\carvedrock.bl.csproj", "{B606E9AE-84EC-44D8-ABE5-0CAC25EE85E3}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "CleanClassAndMethods", "CleanClassAndMethods", "{50C67AB7-3793-4F56-A7DE-FC3AEF1557D8}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "carvedrock.bl", "CleanClassAndMethods\carvedrock.bl\carvedrock.bl.csproj", "{3F5C3E1B-F5C9-4D61-BD18-04A71B4EBDDD}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -25,6 +29,10 @@ Global
 		{B606E9AE-84EC-44D8-ABE5-0CAC25EE85E3}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B606E9AE-84EC-44D8-ABE5-0CAC25EE85E3}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B606E9AE-84EC-44D8-ABE5-0CAC25EE85E3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3F5C3E1B-F5C9-4D61-BD18-04A71B4EBDDD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3F5C3E1B-F5C9-4D61-BD18-04A71B4EBDDD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3F5C3E1B-F5C9-4D61-BD18-04A71B4EBDDD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3F5C3E1B-F5C9-4D61-BD18-04A71B4EBDDD}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -32,6 +40,7 @@ Global
 	GlobalSection(NestedProjects) = preSolution
 		{73011196-7DCC-4A1A-A48B-CC90C84F01BE} = {47D42FFA-2CB2-4E8F-A1DA-557E19474424}
 		{B606E9AE-84EC-44D8-ABE5-0CAC25EE85E3} = {EAD66AAF-1AA1-4B47-B7C2-A225FE4C08A0}
+		{3F5C3E1B-F5C9-4D61-BD18-04A71B4EBDDD} = {50C67AB7-3793-4F56-A7DE-FC3AEF1557D8}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {8C6B72B9-A873-4CDC-95FB-2C122A79A6B5}
