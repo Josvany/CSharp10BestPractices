@@ -1,10 +1,10 @@
 ﻿namespace carvedrock.bl.Conventions.NamingConventions.Structs
 {
-    public struct coords
+    public struct Coords
     {
-        public double lat;
-        public double lon;
+        public double Latitude;
+        public double Longitude;
 
-        public override string ToString() => $"Coords({lat}, {lon})";
+        public override string ToString() => $"Coords({Latitude}, {Longitude})";
     }
 }
