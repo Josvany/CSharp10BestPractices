@@ -1,5 +1,5 @@
 namespace carvedrock.bl.CleanClassesAndMethods.MethodsAndFunctions.HowCreateMethods
-{ 
+{
     public struct Location
 
     {

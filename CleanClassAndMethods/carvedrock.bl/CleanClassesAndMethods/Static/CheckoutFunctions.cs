@@ -1,5 +1,4 @@
-﻿
-namespace carvedrock.bl.CleanClassesAndMethods.Static
+﻿namespace carvedrock.bl.CleanClassesAndMethods.Static
 {
     public static class CheckoutFunctions
     {

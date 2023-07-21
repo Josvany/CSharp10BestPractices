@@ -1,10 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace carvedrock.bl.CleanClassesAndMethods.Static
+﻿namespace carvedrock.bl.CleanClassesAndMethods.Static
 {
     public class BankAccount
     {
@@ -18,7 +12,7 @@ namespace carvedrock.bl.CleanClassesAndMethods.Static
         {
             /// Multiple calculations made
             decimal tax = CheckoutFunctions.CalculateTax(price, twoLetterStateCode);
-            /// A set of additional calculations 
+            /// A set of additional calculations
         }
     }
 }

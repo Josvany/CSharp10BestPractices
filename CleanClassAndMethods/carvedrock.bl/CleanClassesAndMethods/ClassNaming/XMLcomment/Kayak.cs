@@ -1,5 +1,4 @@
-﻿
-namespace carvedrock.bl.CleanClassesAndMethods.ClassNaming.XMLcomment
+﻿namespace carvedrock.bl.CleanClassesAndMethods.ClassNaming.XMLcomment
 {
     public class Kayak
     {

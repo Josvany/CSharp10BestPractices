@@ -6,6 +6,5 @@ namespace carvedrock.bl.CleanClassesAndMethods.MethodsAndFunctions.ClearerCodeIn
         Summer,
         Fall,
         Winter
-
     }
 }

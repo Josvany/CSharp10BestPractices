@@ -1,5 +1,4 @@
-﻿
-namespace carvedrock.bl.CleanClassesAndMethods.FavoringReadability.FavorReadability
+﻿namespace carvedrock.bl.CleanClassesAndMethods.FavoringReadability.FavorReadability
 {
     public class FavorReadability
     {

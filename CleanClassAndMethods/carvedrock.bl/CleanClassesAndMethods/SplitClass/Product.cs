@@ -13,33 +13,43 @@
         public decimal Price { get; set; }
 
         #region shoes
+
         public bool Warmth { get; set; }
         public bool ChlorineResistant { get; set; }
-        #endregion
+
+        #endregion shoes
 
         #region backpacks
+
         public decimal Capacity { get; set; }
         public decimal Weight { get; set; }
         public bool Waterproof { get; set; }
-        #endregion
+
+        #endregion backpacks
 
         #region ropes
+
         public int SizeInt { get; set; }
         public decimal Static { get; set; }
         public decimal Dynamic { get; set; }
         public decimal kN { get; set; }
         public decimal Falls { get; set; }
-        #endregion
+
+        #endregion ropes
 
         #region kayaks
+
         public int Capacity2 { get; set; }
         public decimal Capacity3 { get; set; }
-        #endregion
+
+        #endregion kayaks
 
         #region apparels
+
         public bool WaterRepellent { get; set; }
         public string? Fabric { get; set; }
         public decimal Temperature { get; set; }
-        #endregion
+
+        #endregion apparels
     }
 }

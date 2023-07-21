@@ -23,7 +23,6 @@ namespace carvedrock.bl.CleanClassesAndMethods.DefiningClass
             Composition = composition;
             Price = price;
             Season = season;
-
         }
     }
 }

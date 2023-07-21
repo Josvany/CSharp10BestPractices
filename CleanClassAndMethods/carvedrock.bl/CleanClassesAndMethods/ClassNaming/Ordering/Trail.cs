@@ -1,5 +1,4 @@
-﻿
-namespace carvedrock.bl.CleanClassesAndMethods.ClassNaming.Ordering
+﻿namespace carvedrock.bl.CleanClassesAndMethods.ClassNaming.Ordering
 {
     public class Trail
     {
@@ -14,8 +13,10 @@ namespace carvedrock.bl.CleanClassesAndMethods.ClassNaming.Ordering
             else if ((length > 10) || (elevation > 100)) return (trailTraffic == "heavy") ? "hard" : "moderate";
             else return "easy";
         }
+
         public decimal Length { get; set; }
         public int Elevation { get; set; }
+
         public Trail(
             string Name,
             decimal Length,
@@ -27,6 +28,7 @@ namespace carvedrock.bl.CleanClassesAndMethods.ClassNaming.Ordering
             this.Elevation = Elevation;
             this.Rating = Rating;
         }
+
         public int Id { get; set; }
 
         public override string ToString()
@@ -36,6 +38,5 @@ namespace carvedrock.bl.CleanClassesAndMethods.ClassNaming.Ordering
 
         public string? Name { get; set; }
         public int Rating { get; set; }
-        
     }
 }

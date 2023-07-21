@@ -8,11 +8,13 @@ namespace carvedrock.bl.CleanClassesAndMethods.MethodsAndFunctions.ClearerCodeIn
         private string? sport;
         private Season season;
 
-        public decimal Price { get { return price; } set { price = value; } }
-        public string? Name { get { return name; } set { name = value; } }
-        public string? Sport { get { return sport; } set { sport = value; } }
-        public Season Season { get { return season; } set { season = value; } }
-
-
+        public decimal Price
+        { get { return price; } set { price = value; } }
+        public string? Name
+        { get { return name; } set { name = value; } }
+        public string? Sport
+        { get { return sport; } set { sport = value; } }
+        public Season Season
+        { get { return season; } set { season = value; } }
     }
 }

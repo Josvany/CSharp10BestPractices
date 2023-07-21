@@ -12,5 +12,4 @@ namespace carvedrock.bl.CleanClassesAndMethods.MethodsAndFunctions.HowCreateMeth
         public bool Fishing { get; set; }
         public bool HorsebackRiding { get; set; }
     }
-
 }

@@ -1,9 +1,9 @@
 namespace carvedrock.bl.CleanClassesAndMethods.MethodsAndFunctions.HowCreateMethods
-{ 
-   public enum Traffic
+{
+    public enum Traffic
     {
-        Light, 
-        Moderate, 
+        Light,
+        Moderate,
         Heavy
     }
 }

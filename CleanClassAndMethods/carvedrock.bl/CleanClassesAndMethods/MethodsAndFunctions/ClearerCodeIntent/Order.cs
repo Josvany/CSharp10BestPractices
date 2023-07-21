@@ -7,7 +7,6 @@ namespace carvedrock.bl.CleanClassesAndMethods.MethodsAndFunctions.ClearerCodeIn
         public double Total { get; set; }
         public int CustomerId { get; set; }
 
-
         public decimal total_pricesOfwinter_products(List<Product> l)
         {
             decimal r = 0;
@@ -21,7 +20,6 @@ namespace carvedrock.bl.CleanClassesAndMethods.MethodsAndFunctions.ClearerCodeIn
             }
             return r;
         }
-
 
         public decimal total_pricesOfsummer_products(List<Product> l)
         {
@@ -37,13 +35,11 @@ namespace carvedrock.bl.CleanClassesAndMethods.MethodsAndFunctions.ClearerCodeIn
             return r;
         }
 
-
         public decimal total_pricesOfspring_products(List<Product> l)
         {
             decimal r = 0;
             for (var i = 0; i < l.Count; i++)
             {
-
                 if (l[i].Season.Equals("Spring "))
                 {
                     decimal temp = l[i].Price;
@@ -52,8 +48,5 @@ namespace carvedrock.bl.CleanClassesAndMethods.MethodsAndFunctions.ClearerCodeIn
             }
             return r;
         }
-
     }
-
-
 }
