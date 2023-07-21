@@ -8,11 +8,12 @@
         /// </summary>
         public FCOI()
         {
-            Employee employee = new();
-            employee.title = "Architect";
-            employee.name = "John Doe";
-            employee.age = 35;
-            employee.salary = 1500;
+            const string title = "Architect";
+            const string name = "John Doe";
+            const int age = 35;
+            Person person = new(title, name, age);
+            const int salary = 1500;
+            _ = new Employee(person, salary);
         }
     }
 }
