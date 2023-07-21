@@ -3,15 +3,15 @@
     public class ClimbingShoes
     {
         // Public properties
-        public string? name { get; set; }
+        public string? Name { get; set; }
 
         public bool instock;
 
         // An event
-        public event Action? eventCheckInventory;
+        public event Action? EventCheckInventory;
 
         // Method
-        public void startCheckInventory()
+        public void StartCheckInventory()
         {
             // ...
         }
