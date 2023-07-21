@@ -1,2 +1,4 @@
-﻿// See https://aka.ms/new-console-template for more information
-Console.WriteLine("Hello, World!");
+﻿
+using carvedrock.bl.principles;
+
+Console.WriteLine(new KISS().GetMonth(8));
