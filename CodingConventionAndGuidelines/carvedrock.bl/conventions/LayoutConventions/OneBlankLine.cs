@@ -8,12 +8,11 @@
         public string Name { get; } = null!;
 
         public double Price { get; set; }
-
-        private int _capacity;
-        public int Capacity
-        { get { return _capacity; } set { _capacity = value; } }
         public double Weight { get; }
         public bool IsWaterproof { get; }
+
+        private int _capacity;
+        public int Capacity { get { return _capacity; } set { _capacity = value; } }
 
         public OneBlankLine(string name, double price, int capacity, double weight, bool isWaterproof)
         {
