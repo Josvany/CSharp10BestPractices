@@ -4,8 +4,12 @@ using System.Xml.Serialization;
 
 namespace carvedrock.bl.principles.YAGNI
 {
-
-    public class YAGNI
+    /// <summary>
+    /// def You Aren't Gonna Need It
+    ///     No lo vas a necesitar
+    ///  referencia a no escribir codigo que no usaras
+    /// </summary>
+    public static class YAGNI
     {
         public static void Demo()
         {
@@ -22,8 +26,6 @@ namespace carvedrock.bl.principles.YAGNI
 
             Console.WriteLine("TSV");
             Console.WriteLine(regularBackpack.ToTsv());
-
         }
     }
 }
-
