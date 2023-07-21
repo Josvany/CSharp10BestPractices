@@ -2,6 +2,10 @@
 {
     public class FCOI
     {
+        /// <summary>
+        /// Favor Composition Over Inheritance
+        /// Favorecer la composición sobre la herencia
+        /// </summary>
         public FCOI()
         {
             Employee employee = new();
