@@ -8,13 +8,14 @@ namespace carvedrock.bl.principles.Solid.OpenClosed
         public void Demo()
         {
             // This is what we receive from the API
-            string ourWeatherApi = @"{
+            const string ourWeatherApi = @"{
                 ""Latitude"":10.0731,
                 ""Longitude"":84.3123,
                 ""Description"":""Clouds and sun"",
-                ""TemperatureC"":25
+                ""TemperatureC"":25,
+                ""Humidify"":25,
+                ""Wind"" : 15
             }";
-
 
             Weather? weatherToday = JsonSerializer.Deserialize<Weather>(ourWeatherApi);
 

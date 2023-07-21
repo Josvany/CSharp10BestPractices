@@ -16,5 +16,7 @@ namespace carvedrock.bl.principles.Solid.OpenClosed
         {
             get { return TemperatureC * 9 / 5 + 32; }
         }
+        public float Humidify { get; set; }
+        public float Wind { get; set; }
     }
 }
