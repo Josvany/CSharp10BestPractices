@@ -1,6 +1,6 @@
 ﻿namespace carvedrock.bl.principles.Solid.InterfaceSegregation
 {
-    public class ColdBrewCoffeeMaker : ICoffeeMachine
+    public class ColdBrewCoffeeMaker : IColdCoffeMachine
     {
         private int _coffeeBeans;
         private int _water;
@@ -20,11 +20,6 @@
         public void GetColdCoffee()
         {
             Console.WriteLine("Making Cold Brew");
-        }
-
-        public void GetExpressoCoffee()
-        {
-            throw new NotImplementedException();
         }
     }
 }
