@@ -1,5 +1,4 @@
-﻿
-namespace carvedrock.bl.Conventions.NamingConventions.Classes
+﻿namespace carvedrock.bl.Conventions.NamingConventions.Classes
 {
     public class backpack
     {

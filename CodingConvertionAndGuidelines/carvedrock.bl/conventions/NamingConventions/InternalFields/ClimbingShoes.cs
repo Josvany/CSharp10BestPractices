@@ -1,5 +1,4 @@
-﻿
-namespace carvedrock.bl.Conventions.NamingConventions.InternalFields
+﻿namespace carvedrock.bl.Conventions.NamingConventions.InternalFields
 {
     public class ClimbingShoes
     {

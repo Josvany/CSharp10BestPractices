@@ -1,10 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace carvedrock.bl.Conventions.CommentingConventions
+﻿namespace carvedrock.bl.Conventions.CommentingConventions
 {
     internal class FunnyComments
     {
@@ -20,7 +14,7 @@ namespace carvedrock.bl.Conventions.CommentingConventions
         { // Avoid losing money :)!
             if ((price > 100) && (price < 400)) // This solves issue 234
             {
-                price -= price * 0.30; 
+                price -= price * 0.30;
             }
             else if (price >= 400) // A lot?
             {

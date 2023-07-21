@@ -1,10 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace carvedrock.bl.Conventions.LINQ.POCO
+﻿namespace carvedrock.bl.Conventions.LINQ.POCO
 {
     public class Order
     {
@@ -12,6 +6,5 @@ namespace carvedrock.bl.Conventions.LINQ.POCO
         public List<double> Items { get; set; } = null!;
         public double Total { get; set; }
         public int CustomerId { get; set; }
-
     }
 }

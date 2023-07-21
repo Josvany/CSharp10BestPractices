@@ -3,12 +3,14 @@ namespace carvedrock.bl.Conventions.NamingConventions
     public class NamingConventions
     {
         // Class
-         public class ClimbingShoes 
-	    {
+        public class ClimbingShoes
+        {
             // PascalCase
             // Public members
             public string name { get; } = null!;
+
             public double price { get; set; }
+
             public event Action eventCheckInventory = null!;
 
             // Multiple words
@@ -16,7 +18,6 @@ namespace carvedrock.bl.Conventions.NamingConventions
 
             // Positional record
             public record TrailAddress(string city, string state, string zipCode);
-            
 
             // camelCase
             // Internal fields
@@ -27,9 +28,7 @@ namespace carvedrock.bl.Conventions.NamingConventions
 
             [ThreadStatic]
             private static TimeSpan TimeSpan;
-
         }
-
 
         // Interfaces
         public interface Product
@@ -37,16 +36,13 @@ namespace carvedrock.bl.Conventions.NamingConventions
             void priceWithDiscount();
         }
 
-
         // Method parameters
         public void SaveTrail(int TrailNumber, bool IsRegistered)
         {
             // Saved trail
         }
 
-
         // Additional Naming Conventions
-        ClimbingShoes reallyLongVariableName = new carvedrock.bl.Conventions. NamingConventions.NamingConventions.ClimbingShoes();
-
+        private ClimbingShoes reallyLongVariableName = new carvedrock.bl.Conventions.NamingConventions.NamingConventions.ClimbingShoes();
     }
 }

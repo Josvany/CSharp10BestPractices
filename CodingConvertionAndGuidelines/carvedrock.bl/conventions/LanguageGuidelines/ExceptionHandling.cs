@@ -1,8 +1,9 @@
 namespace carvedrock.bl.Conventions.LanguageGuidelines
 {
-    class HardWork : IDisposable
+    internal class HardWork : IDisposable
     {
         public string? KindOfWork { get; set; }
+
         public void DoSomeWork()
         {
             Console.WriteLine($"Doing some work ({KindOfWork!})");
@@ -16,10 +17,8 @@ namespace carvedrock.bl.Conventions.LanguageGuidelines
         }
     }
 
-
     public class ExceptionHandling
     {
-
         public ExceptionHandling()
         {
             HardWork buildFence = new();
@@ -39,7 +38,5 @@ namespace carvedrock.bl.Conventions.LanguageGuidelines
                 }
             }
         }
-
     }
-
 }

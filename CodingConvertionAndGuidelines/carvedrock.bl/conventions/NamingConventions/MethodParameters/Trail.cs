@@ -1,5 +1,4 @@
-﻿
-namespace carvedrock.bl.Conventions.NamingConventions.MethodParameters
+﻿namespace carvedrock.bl.Conventions.NamingConventions.MethodParameters
 {
     public class Trail
     {

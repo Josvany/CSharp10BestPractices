@@ -1,5 +1,4 @@
-﻿
-namespace carvedrock.bl.Conventions.NamingConventions.Interfaces
+﻿namespace carvedrock.bl.Conventions.NamingConventions.Interfaces
 {
     public interface Product
     {

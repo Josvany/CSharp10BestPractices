@@ -1,15 +1,11 @@
 ﻿using carvedrock.bl.Conventions.LINQ.POCO;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace carvedrock.bl.Conventions.LINQ
 {
     public class WhereBefore
     {
         public List<Order> Orders { get; set; } = new();
+
         public WhereBefore()
         {
             var scoreItems =

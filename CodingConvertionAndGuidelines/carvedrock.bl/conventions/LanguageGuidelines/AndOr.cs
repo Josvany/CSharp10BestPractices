@@ -1,4 +1,3 @@
-
 namespace carvedrock.bl.Conventions.LanguageGuidelines
 {
     public class AndOr

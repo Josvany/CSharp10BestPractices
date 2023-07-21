@@ -9,7 +9,6 @@ namespace carvedrock.bl.Conventions.LanguageGuidelines
 
     public class StaticExample
     {
-
         public StaticExample()
         {
             ShoppingCart cart1 = new();
@@ -26,7 +25,6 @@ namespace carvedrock.bl.Conventions.LanguageGuidelines
             {
                 Console.WriteLine(item.Name);
             }
-
         }
 
         public class ShoppingCart
@@ -42,7 +40,6 @@ namespace carvedrock.bl.Conventions.LanguageGuidelines
             {
                 Items.Clear();
             }
-
         }
     }
 }

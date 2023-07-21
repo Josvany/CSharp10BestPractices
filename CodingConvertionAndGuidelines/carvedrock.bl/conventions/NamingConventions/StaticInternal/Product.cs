@@ -1,5 +1,4 @@
-﻿
-namespace carvedrock.bl.Conventions.NamingConventions.StaticInternal
+﻿namespace carvedrock.bl.Conventions.NamingConventions.StaticInternal
 {
     public class Product
     {

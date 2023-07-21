@@ -1,12 +1,11 @@
 namespace carvedrock.bl.Conventions.LanguageGuidelines
 {
-    class ClimbingShoes 
+    internal class ClimbingShoes
     {
         public int Id { get; set; }
         public string Name { get; set; } = null!;
         public List<string> Color { get; set; } = new();
         public List<double> Size { get; set; } = new();
-
     }
 
     public class New
@@ -23,6 +22,5 @@ namespace carvedrock.bl.Conventions.LanguageGuidelines
             climbingShoes.Color = new List<string> { "White", "Red", "Green" };
             climbingShoes.Size = new List<double> { 5.0, 5.5, 6.0 };
         }
-        
     }
 }
