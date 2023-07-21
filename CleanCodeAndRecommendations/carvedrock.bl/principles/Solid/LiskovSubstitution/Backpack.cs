@@ -1,12 +1,6 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace carvedrock.bl.principles.Solid.LiskovSubstitution
+﻿namespace carvedrock.bl.principles.Solid.LiskovSubstitution
 {
-    public class Backpack
+    public class Backpack : Product
     {
         private readonly string _name;
         private readonly double _price;
@@ -20,15 +14,18 @@ namespace carvedrock.bl.principles.Solid.LiskovSubstitution
             _capacity = capacity;
             _weight = weight;
         }
-        public string GetName()
+
+        public override string GetName()
         {
             return _name;
         }
-        public double GetPrice()
+
+        public override double GetPrice()
         {
             return _price;
         }
-        public string GetDescription()
+
+        public override string GetDescription()
         {
             string thisName = this.GetType().Name;
             return $"{thisName}: Name: {_name}, Price: {_price}, Capacity: {_capacity}, Weight: {_weight}";
