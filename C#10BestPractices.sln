@@ -7,9 +7,9 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "CleanCodeAndRecommendations
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "carvedrock.bl", "CleanCodeAndRecommendations\carvedrock.bl\carvedrock.bl.csproj", "{73011196-7DCC-4A1A-A48B-CC90C84F01BE}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "CodingConvertionAndGuidelines", "CodingConvertionAndGuidelines", "{EAD66AAF-1AA1-4B47-B7C2-A225FE4C08A0}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "CodingConventionAndGuidelines", "CodingConventionAndGuidelines", "{EAD66AAF-1AA1-4B47-B7C2-A225FE4C08A0}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "carvedrock.bl", "CodingConvertionAndGuidelines\carvedrock.bl\carvedrock.bl.csproj", "{B606E9AE-84EC-44D8-ABE5-0CAC25EE85E3}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "carvedrock.bl", "CodingConventionAndGuidelines\carvedrock.bl\carvedrock.bl.csproj", "{B606E9AE-84EC-44D8-ABE5-0CAC25EE85E3}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
