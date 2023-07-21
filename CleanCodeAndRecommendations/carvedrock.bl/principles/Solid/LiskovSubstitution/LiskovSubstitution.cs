@@ -1,5 +1,4 @@
-﻿using System;
-namespace carvedrock.bl.principles.Solid.LiskovSubstitution
+﻿namespace carvedrock.bl.principles.Solid.LiskovSubstitution
 {
     public class LiskovSubstitution
     {

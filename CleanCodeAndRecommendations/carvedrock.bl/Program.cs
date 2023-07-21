@@ -1,5 +1,4 @@
-﻿
-using carvedrock.bl.principles;
+﻿using carvedrock.bl.principles;
 using carvedrock.bl.principles.DRY;
 using carvedrock.bl.principles.Solid.LiskovSubstitution;
 

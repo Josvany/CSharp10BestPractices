@@ -1,9 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Text.Json;
-using System.Threading.Tasks;
+﻿using System.Text.Json;
 
 namespace carvedrock.bl.principles.YAGNI
 {
@@ -24,7 +19,8 @@ namespace carvedrock.bl.principles.YAGNI
             IsWaterproof = isWaterproof;
         }
 
-        public Backpack() { } // Required for Xml Serialization
+        public Backpack()
+        { } // Required for Xml Serialization
 
         public string ToJson()
         {
@@ -41,6 +37,7 @@ namespace carvedrock.bl.principles.YAGNI
             */
             throw new NotImplementedException();
         }
+
         public string ToCsv(bool returnHeader = false)
         {
             /*

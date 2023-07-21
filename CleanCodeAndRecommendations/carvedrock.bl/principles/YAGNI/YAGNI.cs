@@ -1,8 +1,4 @@
-﻿using System;
-using System.Text.Json;
-using System.Xml.Serialization;
-
-namespace carvedrock.bl.principles.YAGNI
+﻿namespace carvedrock.bl.principles.YAGNI
 {
     /// <summary>
     /// def You Aren't Gonna Need It

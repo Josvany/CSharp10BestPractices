@@ -1,10 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace carvedrock.bl.principles.Solid.SingleResponsibility
+﻿namespace carvedrock.bl.principles.Solid.SingleResponsibility
 {
     internal class PlotOnCanvas
     {
@@ -12,6 +6,7 @@ namespace carvedrock.bl.principles.Solid.SingleResponsibility
         {
             // plot circle funcionality
         }
+
         // mas funciones que tenga que ver con canvas
     }
 }

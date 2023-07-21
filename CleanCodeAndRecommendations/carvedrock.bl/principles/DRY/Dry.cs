@@ -14,6 +14,7 @@
             backpack.Price = PriceWithDiscount(backpack.Price);
             shoes.Price = PriceWithDiscount(shoes.Price);
         }
+
         public static double PriceWithDiscount(double price)
         {
             if ((price > 100) && (price < 400))
