@@ -1,4 +1,5 @@
 using System.Diagnostics;
+using System.Text;
 
 namespace carvedrock.bl.Conventions.LanguageGuidelines
 {
@@ -6,13 +7,13 @@ namespace carvedrock.bl.Conventions.LanguageGuidelines
     {
         public PreferStringBuilder()
         {
-            Stopwatch stopwatch = new Stopwatch();
+            Stopwatch stopwatch = new();
             stopwatch.Start();
 
-            string manySymbols = "";
+            StringBuilder manySymbols = new();
             for (var i = 0; i < 1000; i++)
             {
-                manySymbols += i.ToString() + ", ";
+                manySymbols.Append(i).Append(',');
             }
 
             stopwatch.Stop();
