@@ -12,7 +12,9 @@
         {
             /// Multiple calculations made
             decimal tax = CheckoutFunctions.CalculateTax(price, twoLetterStateCode);
+            /// <summary>
             /// A set of additional calculations
+            /// </summary>
         }
     }
 }
