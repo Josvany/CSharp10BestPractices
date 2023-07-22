@@ -2,6 +2,13 @@
 {
     public class Trail
     {
+        public Trail(string Name, decimal Length, int Elevation, int Rating)
+        {
+            this.Name = Name;
+            this.Length = Length;
+            this.Elevation = Elevation;
+            this.Rating = Rating;
+        }
         public string RateTrail(decimal length, int elevation, string trailTraffic, string trailType)
         {
             if (length <= 0) throw new Exception("length cannot be null");
@@ -17,17 +24,7 @@
         public decimal Length { get; set; }
         public int Elevation { get; set; }
 
-        public Trail(
-            string Name,
-            decimal Length,
-            int Elevation,
-            int Rating)
-        {
-            this.Name = Name;
-            this.Length = Length;
-            this.Elevation = Elevation;
-            this.Rating = Rating;
-        }
+
 
         public int Id { get; set; }
 
